@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 //初始化传入内存大小 单位字节 bytes
-$obj = new Lib\SharMem(8)
+$obj = new Lib\SharMem(8);
 //模拟int 自增测试
 $obj->get();
 $obj->incr();
